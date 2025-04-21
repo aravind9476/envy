@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/central-park-manhattan-new-york-huge-beautiful-park-surrounded-by-skyscraper-with-pond_181624-50335.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 0%, 100%,0.1);
+    width: 100%;
+}
